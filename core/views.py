@@ -4,8 +4,10 @@ from .forms import InputForm
 from .helpers import format_sentiment_analyzis_result
 
 from core.analyze_text import analyze_sentiment
+from django.contrib.auth.decorators import login_required
 
 
+@login_required
 def home(request):
     form = InputForm()
     return render(request, 'core/home.html', {"form": form})
