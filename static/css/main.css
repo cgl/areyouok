@@ -1,3 +1,19 @@
+html {
+    width: 100%;
+}
+body {
+    font-family: 'Slabo 27px', serif;
+    margin: 0 auto;
+    width: 50%;
+}
+textarea {
+    resize: none;
+}
+
 .header {
-    
+    font-size: 30px;
+}
+.submit-button {
+    margin: 20px auto;
+    border-radius: 25px;
 }
