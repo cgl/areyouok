@@ -32,3 +32,6 @@ textarea {
 .submit-button:hover{
     background-color: #D8CEF6;
 }
+.result__image {
+    width: 500px;
+}
