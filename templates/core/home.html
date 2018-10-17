@@ -1,1 +1,7 @@
 Hello World
+
+<form method="POST" action="{% url 'display_results' %}">
+  {{form}}
+  {% csrf_token %}
+<button type="submit">Submit</button>
+</form>
