@@ -1,2 +1,6 @@
-Results:
-{{ results }}
+{% if error %}
+    {{ error }}
+{% else %}
+    Results:
+    {{ mood }}
+{% endif %}
