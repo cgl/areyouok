@@ -13,8 +13,8 @@
     <h1 class="header">How are you?</h1>
     <form class="sentiment-form" method="POST" action="{% url 'display_results' %}">
         {% csrf_token %}
-        <textarea id="answer" class="answer" cols="86" rows ="20" name="answer"></textarea>
-        <button class='submit-button' type="submit">Submit</button>
+        <textarea id="answer" class="answer-input" cols="86" rows ="20" name="text"></textarea>
+        <button class="submit-button" type="submit">Submit</button>
     </form>
 </body>
 </html>

@@ -12,6 +12,11 @@
 <body>
     <h1 class="header">How are you?</h1>
         Results:
-        {{ results }}
+        {% if error %}
+        {{ error }}
+        {% else %}
+        Results:
+        {{ mood }}
+        {% endif %}
 </body>
 </html>
