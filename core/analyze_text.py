@@ -27,8 +27,9 @@ def analyze_sentiment(text):
             'magnitude': sentiment.magnitude,
         }
     except InvalidArgument as e:
-        # TODO: logging
-        print(e)
+        return {
+            'error': e
+        }
 
 
 def main():

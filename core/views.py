@@ -17,7 +17,10 @@ def display_results(request):
 
     if form.is_valid():
         text = form.cleaned_data.get('text', '')
-        result = analyze_sentiment(text)
-        results = format_sentiment_analyzis_result(result)
+        data = analyze_sentiment(text)
+        if 'error' in data:
+            results = data
+        else:
+            results = format_sentiment_analyzis_result(data)
 
     return render(request, 'core/results.html', results)
