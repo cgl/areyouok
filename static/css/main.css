@@ -6,7 +6,17 @@ body {
     margin: 0 auto;
     width: 50%;
 }
+.sentiment-form {
+    display: flex;
+    flex-direction: column;
+}
 textarea {
+    border: 1px solid #D8CEF6; 
+    margin: 5px;
+    height: 300px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
     resize: none;
 }
 
@@ -14,6 +24,11 @@ textarea {
     font-size: 30px;
 }
 .submit-button {
-    margin: 20px auto;
+    font-size: 25px;
     border-radius: 25px;
+    margin: 20px auto;
+    width: 70%;
+}
+.submit-button:hover{
+    background-color: #D8CEF6;
 }
