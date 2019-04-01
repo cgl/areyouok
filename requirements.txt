@@ -1,2 +1,2 @@
-Django==2.1.7
+Django==2.1.8
 google-cloud-language==1.1.1
