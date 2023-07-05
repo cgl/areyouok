@@ -1,2 +1,2 @@
 Django==2.1.7
-google-cloud-language==1.1.1
+google-cloud-language==2.10.1
