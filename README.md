@@ -2,9 +2,9 @@
 
 # How to run the app locally?
 
-## Google Sentiment Analyzis
+## Google Sentiment Analysis
 
-Google Sentiment Analyzis requires you to have an Google Account and activate
+Google Sentiment Analysis requires you to have an Google Account and activate
 the API (there is $300 initial credit if you use trial version). To do so you need to
 follow the steps descripbed in [Google's documentation](https://cloud.google.com/natural-language/docs/quickstart-client-libraries?refresh=1&authuser=1).
 Make sure to follow the "Before you begin" section step 1. Save the JSON file and
@@ -34,3 +34,4 @@ $ python3 core/analyze_text.py "I want to die. I'm rubbish"
 $ python3 core/analyze_text.py "I'm useless"
 {'score': -0.699999988079071, 'magnitude': 0.699999988079071}
 ```
+
